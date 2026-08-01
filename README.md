@@ -55,7 +55,9 @@ l'application mobile.
 
 <div align="center">
 
-![Aperçu de l'application LifeBeat](demo/demo1.mp4)
+<video src="demo/demo1.mp4" controls width="100%" max-width="600px">
+  Votre navigateur ne supporte pas la lecture de cette vidéo.
+</video>
 
 </div>
 
@@ -143,8 +145,9 @@ l'état du patient et les alertes générées par le serveur.
 <div align="center">
 
 
-![Regarder la vidéo de démonstration](demo/demo2.mp4)
-
+<video src="demo/demo2.mp4" controls width="100%" max-width="600px">
+  Votre navigateur ne supporte pas la lecture de cette vidéo.
+</video>
 </div>
 
 📁 Code source : [`mobile/`](mobile/)
