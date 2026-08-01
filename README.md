@@ -53,13 +53,7 @@ l'application mobile.
 
 ##  Démo
 
-<div align="center">
-
-<video src="demo/demo1.mp4" controls width="100%" max-width="600px">
-  Votre navigateur ne supporte pas la lecture de cette vidéo.
-</video>
-
-</div>
+![Demo](demo/demo1.webp)
 
 
 ---
@@ -141,6 +135,8 @@ services / monitoring / api) qui :
 
 Application **Flutter** connectée à Firebase, qui affiche en temps réel
 l'état du patient et les alertes générées par le serveur.
+
+![Demo](demo/demo2.webp)
 
 📁 Code source : [`mobile/`](mobile/)
 
