@@ -1,6 +1,6 @@
 <div align="center">
 
-# 💓 LifeBeat
+#  LifeBeat
 
 ### Surveillance médicale intelligente des patients
 <div align="center">
