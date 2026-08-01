@@ -22,7 +22,7 @@ qu'ils ne deviennent critiques.*
 
 ---
 
-## 📖 Sommaire
+##  Sommaire
 
 - [Aperçu](#-aperçu)
 - [Démo](#-démo)
@@ -36,7 +36,7 @@ qu'ils ne deviennent critiques.*
 
 ---
 
-## 🩺 Aperçu
+##  Aperçu
 
 **LifeBeat** est un système de e-santé (IoT + Intelligence Artificielle)
 conçu pour surveiller à distance les signes vitaux d'un patient et alerter
@@ -51,7 +51,7 @@ l'application mobile.
 
 ---
 
-## 🎥 Démo
+##  Démo
 
 <div align="center">
 
@@ -64,20 +64,20 @@ l'application mobile.
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 | | |
 |---|---|
-| 💓 **Suivi en temps réel** | Fréquence cardiaque, SpO2, température, mouvements |
-| 🤖 **Prédiction du risque** | Modèle de machine learning (arbre de décision) |
-| 🚨 **Alertes automatiques** | Température élevée, rythme cardiaque anormal, SpO2 basse, risque élevé |
-| 🚶 **Comptage de pas** | Calculé à partir des données de l'accéléromètre |
-| 🤕 **Détection de chute** | Basée sur la magnitude de l'accélération |
-| 🔄 **Synchronisation cloud** | Firebase Realtime Database, mise à jour en direct sur mobile |
+|  **Suivi en temps réel** | Fréquence cardiaque, SpO2, température, mouvements |
+|  **Prédiction du risque** | Modèle de machine learning (arbre de décision) |
+|  **Alertes automatiques** | Température élevée, rythme cardiaque anormal, SpO2 basse, risque élevé |
+|  **Comptage de pas** | Calculé à partir des données de l'accéléromètre |
+|  **Détection de chute** | Basée sur la magnitude de l'accélération |
+|  **Synchronisation cloud** | Firebase Realtime Database, mise à jour en direct sur mobile |
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```mermaid
 flowchart LR
@@ -112,7 +112,7 @@ flowchart LR
     D <--> I
 ```
 
-### 📡 Hardware — capteurs & microcontrôleur
+###  Hardware — capteurs & microcontrôleur
 
 | Composant | Modèle | Rôle |
 |---|---|---|
@@ -125,7 +125,7 @@ Le firmware lit les capteurs en continu, calcule le BPM et le SpO2,
 horodate chaque mesure, puis envoie les données à Firebase Realtime
 Database via Wi-Fi.
 
-### 🖥️ Serveur backend
+###  Serveur backend
 
 Serveur **Flask** organisé en architecture professionnelle (models /
 services / monitoring / api) qui :
@@ -137,7 +137,7 @@ services / monitoring / api) qui :
 📁 Détails complets, installation et configuration :
 [`server/README.md`](server/README.md)
 
-### 📱 Application mobile
+###  Application mobile
 
 Application **Flutter** connectée à Firebase, qui affiche en temps réel
 l'état du patient et les alertes générées par le serveur.
@@ -154,7 +154,7 @@ l'état du patient et les alertes générées par le serveur.
 
 ---
 
-## 🧰 Stack technique
+##  Stack technique
 
 <div align="center">
 
@@ -185,13 +185,13 @@ LifeBeat/
 
 ---
 
-## 🚀 Démarrage rapide
+##  Démarrage rapide
 
 | Composant | Instructions |
 |---|---|
-| 🖥️ Serveur | Voir [`server/README.md`](server/README.md) |
-| 📱 Mobile | `flutter pub get` puis `flutter run` (voir `mobile/README.md`) |
-| 📡 Hardware | Flasher le firmware ESP32 via l'IDE Arduino (voir `hardware/README.md`) |
+|  Serveur | Voir [`server/README.md`](server/README.md) |
+|  Mobile | `flutter pub get` puis `flutter run` (voir `mobile/README.md`) |
+|  Hardware | Flasher le firmware ESP32 via l'IDE Arduino (voir `hardware/README.md`) |
 
 ---
 
